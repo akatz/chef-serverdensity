@@ -1,0 +1,4 @@
+[serverdensity]
+name=Server Density
+baseurl=http://www.serverdensity.com/downloads/linux/redhat/
+enabled=1
