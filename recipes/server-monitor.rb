@@ -15,7 +15,7 @@ template "/etc/sd-agent/config.cfg" do
 	source "config.cfg.erb"
 	owner "root"
 	group "root"
-	mode "640"
+	mode "644"
 	variables(
 		:sd_url => node[:serverdensity][:sd_url],
 		:agent_key => node[:serverdensity][:agent_key]
